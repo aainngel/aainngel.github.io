@@ -26,7 +26,7 @@ html, body {}
   display: table;
 }
 
-#links, #search, .title, #posts, .post, .post h3, .post p, .post ul, .post ol, .post .caption, .post .description, #posts footer, .response, #disqus, #notes {
+#links, #search, .title, #posts, .post p, .post ul, .post ol, .post .caption, .post .description, #posts footer, .response, #disqus, #notes {
 	width: 100%;
 	margin: 0 auto;
 	position: relative;
@@ -36,8 +36,8 @@ html, body {}
 	max-width: 80%;
 }
 
-.post h3 {
-
+.post, .post h3, {
+	width:300px;
 }
 
 .tmblr-iframe {
