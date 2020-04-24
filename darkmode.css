@@ -1,0 +1,213 @@
+/********************
+NIGHT MODE
+********************/
+
+/********************
+TEXT COLOR
+********************/
+
+::-moz-selection {
+	background: #F5377F;
+	color:#ffffff;
+}
+
+::selection {
+	background: #F5377F;
+	color:#ffffff;
+}
+
+body, a, .navigation a, #links li a, .menu .menu-title a, .menu .nav-button .close, #posts footer .date a, .post-date a {
+  color:#fff;
+}
+
+#posts footer a, .quote h3:before {
+  color:#bdc3c7;
+}
+
+.source, #notes .notes li, #notes .notes li a, .copyright, .copyright a {
+  color:#333;
+}
+
+#links .copyright a {
+  color:#333;
+}
+
+a:hover, #links li:hover a, .menu .menu-title:hover a, #posts footer a:hover, .menu .nav-button:hover .close, .post-date:hover a, #notes .notes li a:hover {
+  color:#777;
+}
+
+.post h3 {
+	color:#dd00e7;
+}
+
+.post p {
+	color:#DEE8F8;
+}
+
+#posts footer {
+text-decoration: none;
+text-align: center;
+color:#dd00e7;
+}
+
+#posts footer, #disqus {
+  border-bottom: 2px solid #ff045b;
+}
+
+#posts .TheEnd {
+margin-top: 75px;
+margin-bottom: 0;
+text-decoration: none;
+text-align: center;
+color:#dd00e7;
+}
+
+.navigation a:hover, #search input {
+  color:#ffffff;
+}
+
+/********************
+BACKGROUND COLOR
+********************/
+
+body {
+  background: #191919;
+}
+
+.c3 {
+	background-image: url("https://thegalxy.files.wordpress.com/2018/06/glxytrnsprntbg1.png");
+  background-repeat: repeat;
+}
+
+.navigation a {
+  background: #ff3366;
+}
+
+.menu .nav-button hr {
+  background: #ecf0f1;
+}
+
+.navigation a:hover, .menu .nav-button:hover hr {
+  background: #ecf0f1;
+}
+
+#menu {
+  background: rgba(35,35,35,1);
+}
+
+.fullscreen {
+  background: #ff3366 !important;
+  background: rgba(35,35,35,1) !important;
+}
+
+/********************
+BORDER COLOR
+********************/
+
+.navigation {
+  border-top: 1px solid #2e2e2e;
+}
+
+.menu, .chat ul li {
+
+
+}
+
+#c3lvl00 {
+    height: 2px;
+    background: linear-gradient(to right, #00eac3, #008eff, #b046ff, #f60381, #ffe834);
+}
+
+#c3lvl0 {
+    height: 1px;
+    background-color:#dee8f8;
+}
+
+#c3lvl1 {
+    height: 1px;
+    background-color:#dee8f8;
+}
+
+#c3lvl2 {
+    height: 5px;
+    background:;
+}
+
+#c3lvl3 {
+    height: 2px;
+    background: linear-gradient(to right, #00eac3, #008eff, #b046ff, #f60381, #ffe834);
+    position: relative;
+    bottom: 1px;
+}
+
+#search {
+	border-style: solid;
+  border-width: 0 0 2px 0;
+	border-color:#ffffff;
+}
+
+
+.BlueBar {
+	color:#dee8f8;
+	border-top: 2px solid #008EFF;
+}
+
+
+
+
+/********************
+MOBILE
+********************/
+
+@media only screen and (max-width: 1280px) {
+  #posts footer, #disqus {
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  #posts footer, #disqus {
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  #posts footer, #disqus {
+  }
+}
+
+
+
+@media only screen and (max-width: 480px) {
+
+.post h3 {
+	color:#dd00e7;
+}
+
+
+
+  #c3lvl00 {
+    height: 2px;
+    background-color:#dee8f8;
+  }
+
+  #c3lvl0 {
+    height: 1px;
+    background-color:#dee8f8;
+  }
+
+  #c3lvl1 {
+      height: 1px;
+      background: linear-gradient(to right, #ffe834, #00eac3);
+  }
+
+  #c3lvl2 {
+      height: 4px;
+      background:;
+  }
+
+  #c3lvl3 {
+      height: 1px;
+      background: linear-gradient(to right, #00eac3, #008eff, #b046ff, #f60381, #ffe834);
+      position: relative;
+      bottom: 0px;
+  }
+}
