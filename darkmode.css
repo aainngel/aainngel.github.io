@@ -207,9 +207,9 @@ MOBILE
   }
 
   #c3lvl3 {
-      height: 2px;
+      height: 1px;
       background: linear-gradient(to right, #00eac3, #008eff, #b046ff, #f60381, #ffe834);
       position: relative;
-      bottom: 90px;
+      bottom: 0px;
   }
 }
