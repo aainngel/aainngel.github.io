@@ -2,7 +2,7 @@
 GENERAL
 ********************/
 
-@import url(//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic|Montserrat:400,700|Roboto+Slab:400,300,100,700|Jura);
+@import url(//fonts.googleapis.com/css?family=Balthazar:400|Herr+Von+Muellerhoff|Literata:400|Tinos:400|Lora:400,700,400italic,700italic|Montserrat:400,700|Roboto+Slab:400,300,100,700|Jura);
 
 html, body {}
 
@@ -27,17 +27,22 @@ html, body {}
 }
 
 #links, #search, .title, #posts, .post, .post h3, .post p, .post ul, .post ol, .post .caption, .post .description, #posts footer, .response, #disqus, #notes {
-	width: 240px;
+	width: 100%;
 	margin: 0 auto;
 	position: relative;
 }
 
 .post p, .post .caption, .post .description, #posts footer, .post blockquote, .post ul, .post ol, .chat ul, .response, #disqus, #notes, .page-title {
-	max-width: 80%;
+	max-width: 50%;
 }
 
-.post h3 {
-
+.post p a {
+	font-size: 2.5em;
+	line-height: 1.5em;
+	font-weight: 400;
+	text-decoration: none;
+	margin-top: 30px !important;
+	text-align: center;
 }
 
 .tmblr-iframe {
@@ -193,8 +198,7 @@ em {
 .ending {
 	font-family: 'Herr Von Muellerhoff', cursive;
 	font-size: 40px;
-	color:#3ad7ff;
-
+	margin-top: 44px;
 }
 
 /********************
@@ -204,6 +208,7 @@ HEADER
 header {
 	position: relative;
 	margin-top: -5px;
+	margin-bottom: 4em;
 	line-height: 0.5;
 }
 
@@ -492,7 +497,7 @@ FOOTER
 
 #posts footer {
 	padding-bottom: 20px; /* padding under purple sign off */
-	margin: 30px auto 20px auto; /* margin for golden line break */
+	margin: 40px auto 20px auto; /* margin for golden line break */
 	display: block;
 	font-weight: 400;
 	text-transform: uppercase;
