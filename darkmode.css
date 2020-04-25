@@ -188,17 +188,17 @@ MOBILE
 
   #c3lvl00 {
     height: 2px;
-    background-color:#dee8f8;
+    background: linear-gradient(to right, #00eac3, #008eff, #b046ff, #f60381, #ffe834);
   }
 
   #c3lvl0 {
     height: 1px;
-    background-color:#dee8f8;
+    background-color: #dee8f8;
   }
 
   #c3lvl1 {
       height: 1px;
-      background: linear-gradient(to right, #ffe834, #00eac3);
+      background: #dee8f8);
   }
 
   #c3lvl2 {
