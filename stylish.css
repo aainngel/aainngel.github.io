@@ -968,6 +968,14 @@ PXU Photoset Extended Styles
 		color:#F5377F;
 	}
 
+.post p a {
+	font-size: 1.5em;
+	line-height: 1.5em;
+	font-weight: 400;
+	text-decoration: none;
+	margin-top: 30px !important;
+	text-align: center;
+}
 
 	#titlem a {
 		font-size: 0.7em !important;
